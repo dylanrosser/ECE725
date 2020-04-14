@@ -1,0 +1,38 @@
+SAR Logic DRC Clean (J)
+T/H DRC Clean (Y)
+Add dummy to comparator (D)
+CAD DAC + Switches Layout
+Full chip schematic
+Full Chip Layout  [4/16]
+Clock Buffers & Routing (By hand or CTS?)
+Power Stripes (By hand or by tool)
+Full chip decap
+Parasitic Extraction
+Pad Ring
+Full Chip LVS
+Full Chip DRC, antenna, wirebond
+Post-Layout & PEX Simulation (what if it fails?) [4/21]
+
+Questions -
+DRC errors
+  PO.S.4 (Space between poly = 1) Standard Cells = 0.11
+  PO.EX.2 (horizontal distance between PO and OD = 0.075) Standard Cells = 0.085
+
+  Floating Gate
+  Density (ODPO fill, don't use metal fill) will we meet metal density and dummy metal DRC if we don't use metal fill?
+  Layers Required (will these go away after fill scripts)
+  Diode
+  Seal Ring
+  PM layer necessary for DRC (PMET DRC errors)
+
+Power Stripes & Clock (manual or automated)
+If clock tree is synthesized, do we still route clock in each custom logic cell
+What other routing can we automate?
+What post layout verification do we need (PVT corners, monte carlo, Periodic Steady State)
+
+Notes from Apple & professors
+Be wary of parasitic routing capitance
+Minimize source drain diffusion
+Source Drain Capacitance Estimation
+Hold time
+Clock tree buffers FO = 3
