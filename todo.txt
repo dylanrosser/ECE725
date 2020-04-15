@@ -1,10 +1,11 @@
 SAR Logic DRC Clean (J)
 T/H DRC Clean (Y)
 Add dummy to comparator (D)
-CAD DAC + Switches Layout
+CAD DAC (Y)
+Switches Layout (D)
 Full chip schematic
 Full Chip Layout  [4/16]
-Clock Buffers & Routing (By hand or CTS?)
+Clock Buffers & Routing (By hand or CTS?) - just get pad ring from innovus ASAP (J)
 Power Stripes (By hand or by tool)
 Full chip decap
 Parasitic Extraction
@@ -15,7 +16,8 @@ Post-Layout & PEX Simulation (what if it fails?) [4/21]
 
 Questions -
 DRC errors
-  PO.S.4 (Space between poly = 1) Standard Cells = 0.11
+  PO.S.4 (Space between poly = 0.1) Standard Cells = 0.11
+  related to not having endcaps - minimum poly pitch - not using poly cut layer (PO Test1)
   PO.EX.2 (horizontal distance between PO and OD = 0.075) Standard Cells = 0.085
 
   Floating Gate
@@ -23,11 +25,19 @@ DRC errors
   Layers Required (will these go away after fill scripts)
   Diode
   Seal Ring
-  PM layer necessary for DRC (PMET DRC errors)
+  PM layer necessary for DRC (PMET DRC errors) FBEOL option 1
 
 Power Stripes & Clock (manual or automated)
-If clock tree is synthesized, do we still route clock in each custom logic cell
-What other routing can we automate?
+- all by hand. Think about pad ring, cut cell etc.
+- in innovus just auto generate pad ring. Bring into virtuoso for LVS and DRC. stream out netlist.
+- can copy bond pad p-cell
+- post_init.tcl, putting pad ontop of anything with PV
+If clock tree is synthesized, NO.
+What other routing can we automate? Only pad ring generation.
+Look at IO app note: /afs/ece/class/ece725/tsmc28/pdk/TN28CLDR002_1_9/DRM/N28_IO_General_Application_Note.pdf
+Pvdd needs three bond pads to same package pin.
+Need to make bonding diagram reflect that.
+Bond pad pitch rules - minimum is 70um
 What post layout verification do we need (PVT corners, monte carlo, Periodic Steady State)
 
 Notes from Apple & professors
@@ -36,3 +46,14 @@ Minimize source drain diffusion
 Source Drain Capacitance Estimation
 Hold time
 Clock tree buffers FO = 3
+elmore time constant
+elmore delay
+
+min wire 
+0.1 fF/um 
+10 Ohm/um
+
+make things as symmetric as possible
+if asymmetric layout
+
+if transient is really slow run use liberal
