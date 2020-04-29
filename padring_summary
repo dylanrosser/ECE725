@@ -1,0 +1,68 @@
+SUMMARY:
+We will need to add a label for the POC cell (PVDD2POC) to pass LVS
+
+ch 6:
+filler: use wide first then small
+if the empty space if longer then one digital cell they recommend using a dummy digital IO cell or core power cell
+where dummy means not bonded
+it is required to implement the bonded digital IO ground cell PVSS2DGZ or 3DGZ right next to each side of the corner cell for ESD consideration
+only the VSS cus (global ESD bus) remain connected through the cut cell
+PRCUT contains NWELL guard ring
+for ESD and latch up it is required to implement the digital VSS (PVSS1 or 3 DGZ right next to the power cut cell
+
+ch 7:
+Simultaneous Switching and Ground Bounce
+By referring to the DF table in the library databook, we can calculate the required number of bonded
+I/O power/ground cell to avoid SSN in each digital domain, if there is any I/O cell used as the output
+driver.
+we might want someone to run through the calculation in section 7.3 to figure out the appropriate number of power/ground IO cells
+
+ch 8:
+section 8.5: 20pF minimum DECAP
+The minimal capacitive load between the “AVDD” pin on the core side of (PVDD1ANA_V/H_G,
+PVDD2ANA_V/H_G) and the “AVSS” pin on the core side of (PVSS1ANA_V/H_G,
+PVSS2ANA_V/H_G) is 20pF.
+If insufficient, it is required to insert the decoupling capacitor. Please refer to Figure 8.6 for
+illustration.
+
+section 8.6:
+Required Per power domain:
+(3) Bonded PVDD1GZ
+(2) bonded PVDD2
+(2) bonded PVDD2GZ
+(1) PVDD2POC bonded or not
+(1) PVSS1DGZ
+if using PVDD1ANA you need at lease (3) and triple bond them
+PVDD2ANA at least (2) needed for analog IO power
+PVSS1 or 2ANA - (1) each is needed for analog core ground and IO ground
+must use PCLAMP if using PVDD/PVSS1ANA (we're not I think)
+there is a core clamp and an IO clamp labeled 1 and 2 respectively
+
+If PDB3A/AC_V/H_G is connected to the internal gate, it is required to insert the
+secondary ESD protection devices as illustrated in Figure 9.3 to ensure optimal ESD
+protection.
+5. If PDB3A/AC_V/H_G is connected to the internal drain, it is required to either insert the
+secondary ESD protection devices as illustrated in Figure 9.5, or follow the ESD guideline
+specified in TSMC Design Rule Manual. (These are analog signal pads for our track and hold)
+
+it is required to implement the bonded PVSS2AC in the core voltage analog domain
+
+the filler cell for the analog domain is PFILLERxA_G
+
+it is required to implement analog power or ground PVDD3AC/PVSS3AC right next to the cut cell
+
+minimum requirements for core voltage analog domain:
+(3) PVDD3AC bonded
+(3) PVDD1AC bonded to the same package pin
+(1) PVSS3AC - might need/want more
+PVSS2AC_V/H_G global ESD ground bus supply: this I/O is needed in case thethe VSS
+bus resistance requirement cannot be fullfilled by the digital PVSS1DGZ_V/H_G. The
+PVSS2AC_V/H_G / PVSS1DGZ_V/H_G must meet the VSS bus resistance requirement
+PCLAMP_C should be used when using PVDD3AC/PVSS3AC
+it is required to use at least 1 PCLAMPC macro along with the core voltage analog power-ground pair
+refer to section 8.7 for the implementation of the Clamp. it is the same as for the ANA cells
+It is required to implement the bonded ground cell (PVSS3A_V/H_G / PVSS3AC_V/H_G) right next
+to each side of the PCORNERA_G corner cell for ESD robustness. Please refer to Section 0 for
+details.
+
+there is a checklist at the end of the file that can help us make sure we meet all the requirements
