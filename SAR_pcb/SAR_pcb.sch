@@ -146,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 5800 6250 5900
 $Comp
-L SAR_ADC:10B_SAR U2
+L SAR_pcb-rescue:10B_SAR-SAR_ADC U2
 U 1 1 5F7A3A6A
 P 5250 4450
 F 0 "U2" H 6544 3871 50  0000 L CNN
@@ -858,5 +858,16 @@ F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 2450 4150 50  0001
 F 3 "~" H 2450 4150 50  0001 C CNN
 	1    2450 4200
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7D0630
+P 6650 5650
+F 0 "#PWR?" H 6650 5400 50  0001 C CNN
+F 1 "GND" H 6655 5477 50  0000 C CNN
+F 2 "" H 6650 5650 50  0001 C CNN
+F 3 "" H 6650 5650 50  0001 C CNN
+	1    6650 5650
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

@@ -312,47 +312,6 @@ CLK_S
 Text GLabel 6750 850  0    50   Input ~ 0
 CLK
 $Comp
-L Transformer:5400BL15B050 U1
-U 1 1 5F7D81BF
-P 1350 4050
-F 0 "U1" H 1350 4475 50  0000 C CNN
-F 1 "5400BL15B050" H 1350 4384 50  0000 C CNN
-F 2 "RF_Converter:Balun_Johanson_5400BL15B050E" H 1350 3750 50  0001 C CNN
-F 3 "https://www.johansontechnology.com/datasheets/5400BL15B050/5400BL15B050.pdf" H 1350 4350 50  0001 C CNN
-	1    1350 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5F7DCE39
-P 1250 5100
-F 0 "#PWR020" H 1250 4850 50  0001 C CNN
-F 1 "GND" H 1255 4927 50  0000 C CNN
-F 2 "" H 1250 5100 50  0001 C CNN
-F 3 "" H 1250 5100 50  0001 C CNN
-	1    1250 5100
-	1    0    0    -1  
-$EndComp
-Text GLabel 1250 4800 0    50   Input ~ 0
-VIN
-Text GLabel 1150 3850 0    50   Input ~ 0
-VIN
-$Comp
-L power:GND #PWR01
-U 1 1 5F7E021F
-P 1250 4350
-F 0 "#PWR01" H 1250 4100 50  0001 C CNN
-F 1 "GND" H 1255 4177 50  0000 C CNN
-F 2 "" H 1250 4350 50  0001 C CNN
-F 3 "" H 1250 4350 50  0001 C CNN
-	1    1250 4350
-	1    0    0    -1  
-$EndComp
-Text GLabel 1550 3850 2    50   Input ~ 0
-VINP
-Text GLabel 1550 4250 2    50   Input ~ 0
-VINM
-$Comp
 L Connector:Conn_01x02_Male J6
 U 1 1 5F7ACA8F
 P 4900 750
@@ -898,17 +857,6 @@ F 1 "Conn_Coaxial_Power" H 2538 4105 50  0000 L CNN
 F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 2450 4150 50  0001 C CNN
 F 3 "~" H 2450 4150 50  0001 C CNN
 	1    2450 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial_Power J12
-U 1 1 5F857031
-P 1250 4900
-F 0 "J12" H 1338 4896 50  0000 L CNN
-F 1 "Conn_Coaxial_Power" H 1338 4805 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 1250 4850 50  0001 C CNN
-F 3 "~" H 1250 4850 50  0001 C CNN
-	1    1250 4900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
