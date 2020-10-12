@@ -375,7 +375,7 @@ U 1 1 5F7DED7C
 P 3000 950
 F 0 "C13" H 3115 996 50  0000 L CNN
 F 1 "0.001u" H 3115 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 800 50  0001 C CNN
 F 3 "~" H 3000 950 50  0001 C CNN
 	1    3000 950 
 	1    0    0    -1  
@@ -386,8 +386,8 @@ U 1 1 5F7E0756
 P 2550 950
 F 0 "C10" H 2665 996 50  0000 L CNN
 F 1 "0.01" H 2665 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2588 800 50  0001 C CNN
-F 3 "~" H 2550 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 800 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 2550 950 50  0001 C CNN
 	1    2550 950 
 	1    0    0    -1  
 $EndComp
@@ -397,8 +397,8 @@ U 1 1 5F7E12CB
 P 2250 950
 F 0 "C7" H 2365 996 50  0000 L CNN
 F 1 "0.1u" H 2365 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2288 800 50  0001 C CNN
-F 3 "~" H 2250 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 800 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt4w2" H 2250 950 50  0001 C CNN
 	1    2250 950 
 	1    0    0    -1  
 $EndComp
@@ -408,8 +408,8 @@ U 1 1 5F7E1E8A
 P 1900 950
 F 0 "C4" H 2015 996 50  0000 L CNN
 F 1 "1u" H 2015 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 800 50  0001 C CNN
-F 3 "~" H 1900 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 800 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt4f2" H 1900 950 50  0001 C CNN
 	1    1900 950 
 	1    0    0    -1  
 $EndComp
@@ -419,8 +419,8 @@ U 1 1 5F7E2A59
 P 1500 950
 F 0 "C1" H 1615 996 50  0000 L CNN
 F 1 "10u" H 1615 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1538 800 50  0001 C CNN
-F 3 "~" H 1500 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 800 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt492" H 1500 950 50  0001 C CNN
 	1    1500 950 
 	1    0    0    -1  
 $EndComp
@@ -477,7 +477,7 @@ U 1 1 5F7F40D7
 P 3000 1750
 F 0 "C14" H 3115 1796 50  0000 L CNN
 F 1 "0.001u" H 3115 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 1600 50  0001 C CNN
 F 3 "~" H 3000 1750 50  0001 C CNN
 	1    3000 1750
 	1    0    0    -1  
@@ -488,8 +488,8 @@ U 1 1 5F7F40DD
 P 2550 1750
 F 0 "C11" H 2665 1796 50  0000 L CNN
 F 1 "0.01" H 2665 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2588 1600 50  0001 C CNN
-F 3 "~" H 2550 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 1600 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 2550 1750 50  0001 C CNN
 	1    2550 1750
 	1    0    0    -1  
 $EndComp
@@ -499,8 +499,8 @@ U 1 1 5F7F40E3
 P 2250 1750
 F 0 "C8" H 2365 1796 50  0000 L CNN
 F 1 "0.1u" H 2365 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2288 1600 50  0001 C CNN
-F 3 "~" H 2250 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 1600 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt4w2" H 2250 1750 50  0001 C CNN
 	1    2250 1750
 	1    0    0    -1  
 $EndComp
@@ -510,8 +510,8 @@ U 1 1 5F7F40E9
 P 1900 1750
 F 0 "C5" H 2015 1796 50  0000 L CNN
 F 1 "1u" H 2015 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 1600 50  0001 C CNN
-F 3 "~" H 1900 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 1600 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt4f2" H 1900 1750 50  0001 C CNN
 	1    1900 1750
 	1    0    0    -1  
 $EndComp
@@ -521,8 +521,8 @@ U 1 1 5F7F40EF
 P 1500 1750
 F 0 "C2" H 1615 1796 50  0000 L CNN
 F 1 "10u" H 1615 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1538 1600 50  0001 C CNN
-F 3 "~" H 1500 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 1600 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt492" H 1500 1750 50  0001 C CNN
 	1    1500 1750
 	1    0    0    -1  
 $EndComp
@@ -579,7 +579,7 @@ U 1 1 5F7F8534
 P 3000 2550
 F 0 "C15" H 3115 2596 50  0000 L CNN
 F 1 "0.001u" H 3115 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 2400 50  0001 C CNN
 F 3 "~" H 3000 2550 50  0001 C CNN
 	1    3000 2550
 	1    0    0    -1  
@@ -590,8 +590,8 @@ U 1 1 5F7F853A
 P 2550 2550
 F 0 "C12" H 2665 2596 50  0000 L CNN
 F 1 "0.01" H 2665 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2588 2400 50  0001 C CNN
-F 3 "~" H 2550 2550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 2400 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 2550 2550 50  0001 C CNN
 	1    2550 2550
 	1    0    0    -1  
 $EndComp
@@ -601,8 +601,8 @@ U 1 1 5F7F8540
 P 2250 2550
 F 0 "C9" H 2365 2596 50  0000 L CNN
 F 1 "0.1u" H 2365 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2288 2400 50  0001 C CNN
-F 3 "~" H 2250 2550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 2400 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt4w2" H 2250 2550 50  0001 C CNN
 	1    2250 2550
 	1    0    0    -1  
 $EndComp
@@ -612,8 +612,8 @@ U 1 1 5F7F8546
 P 1900 2550
 F 0 "C6" H 2015 2596 50  0000 L CNN
 F 1 "1u" H 2015 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 2400 50  0001 C CNN
-F 3 "~" H 1900 2550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 2400 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt4f2" H 1900 2550 50  0001 C CNN
 	1    1900 2550
 	1    0    0    -1  
 $EndComp
@@ -623,8 +623,8 @@ U 1 1 5F7F854C
 P 1500 2550
 F 0 "C3" H 1615 2596 50  0000 L CNN
 F 1 "10u" H 1615 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1538 2400 50  0001 C CNN
-F 3 "~" H 1500 2550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 2400 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt492" H 1500 2550 50  0001 C CNN
 	1    1500 2550
 	1    0    0    -1  
 $EndComp
