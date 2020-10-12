@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 6005 4745 1    50   Input ~ 0
-CLK_C
 Text GLabel 6105 4745 1    50   Input ~ 0
 VDDPST
 Text GLabel 6205 4745 1    50   Input ~ 0
@@ -51,8 +49,6 @@ Wire Wire Line
 	6205 4895 6205 4745
 Wire Wire Line
 	6105 4895 6105 4745
-Wire Wire Line
-	6005 4895 6005 4745
 Wire Wire Line
 	5905 4895 5905 4745
 Wire Wire Line
@@ -220,17 +216,6 @@ F 3 " ~" H 6950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J11
-U 1 1 5F7C18E6
-P 6950 1850
-F 0 "J11" H 7050 1825 50  0000 L CNN
-F 1 "Conn_Coaxial" H 7050 1734 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6950 1850 50  0001 C CNN
-F 3 " ~" H 6950 1850 50  0001 C CNN
-	1    6950 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J9
 U 1 1 5F7C2E44
 P 6950 850
@@ -239,17 +224,6 @@ F 1 "Conn_Coaxial" H 7050 734 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6950 850 50  0001 C CNN
 F 3 " ~" H 6950 850 50  0001 C CNN
 	1    6950 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR019
-U 1 1 5F7C5123
-P 6950 2050
-F 0 "#PWR019" H 6950 1800 50  0001 C CNN
-F 1 "GND" H 6955 1877 50  0000 C CNN
-F 2 "" H 6950 2050 50  0001 C CNN
-F 3 "" H 6950 2050 50  0001 C CNN
-	1    6950 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -274,8 +248,6 @@ F 3 "" H 6950 1050 50  0001 C CNN
 	1    6950 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 1850 0    50   Input ~ 0
-CLK_C
 Text GLabel 6750 1350 0    50   Input ~ 0
 CLK_S
 Text GLabel 6750 850  0    50   Input ~ 0
@@ -7119,4 +7091,19 @@ A8 A8 A8 5B B7 6E 9A 8B 97 00 F6 0F C9 12 A0 93 9A 35 6B 56 44 44 C4 B2 65 CB DA
 00 80 03 92 25 00 00 00 87 FF 07 95 DC 31 70 A5 4E C8 10 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text GLabel 6005 4065 1    50   Input ~ 0
+CLK
+$Comp
+L Device:R R?
+U 1 1 5F8560B6
+P 6005 4215
+F 0 "R?" H 6075 4261 50  0000 L CNN
+F 1 "0,<20 mOhm" H 6075 4170 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5935 4215 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt8qf" H 6005 4215 50  0001 C CNN
+	1    6005 4215
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6005 4365 6005 4895
 $EndSCHEMATC
