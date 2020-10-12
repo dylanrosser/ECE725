@@ -5775,10 +5775,10 @@ Output Elements
 Text GLabel 8000 2090 0    50   Input ~ 0
 CLK
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 5F91ABE8
 P 8370 2245
-F 0 "R?" H 8440 2291 50  0000 L CNN
+F 0 "R4" H 8440 2291 50  0000 L CNN
 F 1 "50" H 8440 2200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8300 2245 50  0001 C CNN
 F 3 "https://www.digikey.com/short/zntj08" H 8370 2245 50  0001 C CNN
@@ -5786,10 +5786,10 @@ F 3 "https://www.digikey.com/short/zntj08" H 8370 2245 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L2
 U 1 1 5F91ABEE
 P 8370 2545
-F 0 "L?" H 8423 2591 50  0000 L CNN
+F 0 "L2" H 8423 2591 50  0000 L CNN
 F 1 "2.2 nH" H 8423 2500 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" H 8370 2545 50  0001 C CNN
 F 3 "https://www.digikey.com/short/zntz8b" H 8370 2545 50  0001 C CNN
@@ -5797,10 +5797,10 @@ F 3 "https://www.digikey.com/short/zntz8b" H 8370 2545 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5F91ABF4
 P 8850 2095
-F 0 "R?" V 8643 2095 50  0000 C CNN
+F 0 "R5" V 8643 2095 50  0000 C CNN
 F 1 "10" V 8734 2095 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8780 2095 50  0001 C CNN
 F 3 "https://www.digikey.com/short/zntz9r" H 8850 2095 50  0001 C CNN
@@ -5815,10 +5815,10 @@ Wire Wire Line
 	8700 2095 8370 2095
 Connection ~ 8370 2095
 $Comp
-L power:GND #PWR?
+L power:GND #PWR019
 U 1 1 5F91ABFE
 P 8370 2695
-F 0 "#PWR?" H 8370 2445 50  0001 C CNN
+F 0 "#PWR019" H 8370 2445 50  0001 C CNN
 F 1 "GND" H 8375 2522 50  0000 C CNN
 F 2 "" H 8370 2695 50  0001 C CNN
 F 3 "" H 8370 2695 50  0001 C CNN
