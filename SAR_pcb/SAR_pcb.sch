@@ -184,26 +184,6 @@ Wire Wire Line
 	6605 5845 6755 5845
 Wire Wire Line
 	6605 5945 6755 5945
-Text GLabel 8195 4890 0    50   Input ~ 0
-D0
-Text GLabel 8195 5140 0    50   Input ~ 0
-D1
-Text GLabel 8195 5440 0    50   Input ~ 0
-D2
-Text GLabel 8195 5690 0    50   Input ~ 0
-D3
-Text GLabel 8195 5940 0    50   Input ~ 0
-D4
-Text GLabel 9315 4890 0    50   Input ~ 0
-D5
-Text GLabel 9315 5140 0    50   Input ~ 0
-D6
-Text GLabel 9315 5440 0    50   Input ~ 0
-D7
-Text GLabel 9315 5690 0    50   Input ~ 0
-D8
-Text GLabel 9315 5940 0    50   Input ~ 0
-D9
 $Comp
 L Connector:Conn_Coaxial J10
 U 1 1 5F7C01E2
@@ -330,45 +310,6 @@ Wire Wire Line
 	4605 1700 4705 1700
 Wire Wire Line
 	4605 900  4705 900 
-$Comp
-L power:GND #PWR07
-U 1 1 5F7BFBB3
-P 3755 1100
-F 0 "#PWR07" H 3755 850 50  0001 C CNN
-F 1 "GND" H 3760 927 50  0000 C CNN
-F 2 "" H 3755 1100 50  0001 C CNN
-F 3 "" H 3755 1100 50  0001 C CNN
-	1    3755 1100
-	1    0    0    -1  
-$EndComp
-Text GLabel 3755 800  0    50   Input ~ 0
-VDD
-$Comp
-L power:GND #PWR08
-U 1 1 5F7C1A99
-P 3755 1900
-F 0 "#PWR08" H 3755 1650 50  0001 C CNN
-F 1 "GND" H 3760 1727 50  0000 C CNN
-F 2 "" H 3755 1900 50  0001 C CNN
-F 3 "" H 3755 1900 50  0001 C CNN
-	1    3755 1900
-	1    0    0    -1  
-$EndComp
-Text GLabel 3755 1600 0    50   Input ~ 0
-VDDPST
-$Comp
-L power:GND #PWR09
-U 1 1 5F7C27B5
-P 3755 2800
-F 0 "#PWR09" H 3755 2550 50  0001 C CNN
-F 1 "GND" H 3760 2627 50  0000 C CNN
-F 2 "" H 3755 2800 50  0001 C CNN
-F 3 "" H 3755 2800 50  0001 C CNN
-	1    3755 2800
-	1    0    0    -1  
-$EndComp
-Text GLabel 3755 2500 0    50   Input ~ 0
-VREF
 $Comp
 L Device:C C13
 U 1 1 5F7DED7C
@@ -720,39 +661,6 @@ F 3 "~" H 620 7685 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial_Power J5
-U 1 1 5F81DC45
-P 3755 2600
-F 0 "J5" H 3843 2596 50  0000 L CNN
-F 1 "Conn_Coaxial_Power" H 3843 2505 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 3755 2550 50  0001 C CNN
-F 3 "~" H 3755 2550 50  0001 C CNN
-	1    3755 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial_Power J4
-U 1 1 5F831ABA
-P 3755 1700
-F 0 "J4" H 3843 1696 50  0000 L CNN
-F 1 "Conn_Coaxial_Power" H 3843 1605 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 3755 1650 50  0001 C CNN
-F 3 "~" H 3755 1650 50  0001 C CNN
-	1    3755 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial_Power J3
-U 1 1 5F834D88
-P 3755 900
-F 0 "J3" H 3843 896 50  0000 L CNN
-F 1 "Conn_Coaxial_Power" H 3843 805 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 3755 850 50  0001 C CNN
-F 3 "~" H 3755 850 50  0001 C CNN
-	1    3755 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 5F846135
 P 5405 2270
@@ -813,228 +721,8 @@ F 3 "" H 6605 6195 50  0001 C CNN
 $EndComp
 Text Notes 600  950  0    50   ~ 10
 VDD = 0.9 V\nVDDPST = 1.8 V\nVREFP = 0.45?\nVREFM = 0?
-Text Notes 1805 5600 0    50   ~ 10
+Text Notes 1805 5700 0    50   ~ 10
 Check if arbitrary waveform gen can \ngenerate "inverted" mode signals\n up to 25 MHz (Nyquist)
-$Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 5F85BD64
-P 8395 4790
-F 0 "J12" H 8475 4782 50  0000 L CNN
-F 1 "Conn_01x02" H 8475 4691 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8395 4790 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 8395 4790 50  0001 C CNN
-	1    8395 4790
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J13
-U 1 1 5F861E4E
-P 8395 5040
-F 0 "J13" H 8475 5032 50  0000 L CNN
-F 1 "Conn_01x02" H 8475 4941 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8395 5040 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 8395 5040 50  0001 C CNN
-	1    8395 5040
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J14
-U 1 1 5F8621EA
-P 8395 5340
-F 0 "J14" H 8475 5332 50  0000 L CNN
-F 1 "Conn_01x02" H 8475 5241 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8395 5340 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 8395 5340 50  0001 C CNN
-	1    8395 5340
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J15
-U 1 1 5F862631
-P 8395 5590
-F 0 "J15" H 8475 5582 50  0000 L CNN
-F 1 "Conn_01x02" H 8475 5491 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8395 5590 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 8395 5590 50  0001 C CNN
-	1    8395 5590
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J16
-U 1 1 5F863C7A
-P 8395 5840
-F 0 "J16" H 8475 5832 50  0000 L CNN
-F 1 "Conn_01x02" H 8475 5741 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8395 5840 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 8395 5840 50  0001 C CNN
-	1    8395 5840
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 5F8652F7
-P 9515 4790
-F 0 "J17" H 9595 4782 50  0000 L CNN
-F 1 "Conn_01x02" H 9595 4691 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9515 4790 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 9515 4790 50  0001 C CNN
-	1    9515 4790
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J18
-U 1 1 5F865301
-P 9515 5040
-F 0 "J18" H 9595 5032 50  0000 L CNN
-F 1 "Conn_01x02" H 9595 4941 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9515 5040 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 9515 5040 50  0001 C CNN
-	1    9515 5040
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J19
-U 1 1 5F86530B
-P 9515 5340
-F 0 "J19" H 9595 5332 50  0000 L CNN
-F 1 "Conn_01x02" H 9595 5241 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9515 5340 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 9515 5340 50  0001 C CNN
-	1    9515 5340
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J20
-U 1 1 5F865315
-P 9515 5590
-F 0 "J20" H 9595 5582 50  0000 L CNN
-F 1 "Conn_01x02" H 9595 5491 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9515 5590 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 9515 5590 50  0001 C CNN
-	1    9515 5590
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J21
-U 1 1 5F86531F
-P 9515 5840
-F 0 "J21" H 9595 5832 50  0000 L CNN
-F 1 "Conn_01x02" H 9595 5741 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9515 5840 50  0001 C CNN
-F 3 "https://www.digikey.com/short/zntj99" H 9515 5840 50  0001 C CNN
-	1    9515 5840
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5F8962C9
-P 8195 4790
-F 0 "#PWR0102" H 8195 4540 50  0001 C CNN
-F 1 "GND" H 8200 4617 50  0000 C CNN
-F 2 "" H 8195 4790 50  0001 C CNN
-F 3 "" H 8195 4790 50  0001 C CNN
-	1    8195 4790
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5F896E6D
-P 8195 5040
-F 0 "#PWR0103" H 8195 4790 50  0001 C CNN
-F 1 "GND" H 8200 4867 50  0000 C CNN
-F 2 "" H 8195 5040 50  0001 C CNN
-F 3 "" H 8195 5040 50  0001 C CNN
-	1    8195 5040
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5F8971A2
-P 8195 5340
-F 0 "#PWR0104" H 8195 5090 50  0001 C CNN
-F 1 "GND" H 8200 5167 50  0000 C CNN
-F 2 "" H 8195 5340 50  0001 C CNN
-F 3 "" H 8195 5340 50  0001 C CNN
-	1    8195 5340
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5F897930
-P 8195 5590
-F 0 "#PWR0105" H 8195 5340 50  0001 C CNN
-F 1 "GND" H 8200 5417 50  0000 C CNN
-F 2 "" H 8195 5590 50  0001 C CNN
-F 3 "" H 8195 5590 50  0001 C CNN
-	1    8195 5590
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5F898245
-P 8195 5840
-F 0 "#PWR0106" H 8195 5590 50  0001 C CNN
-F 1 "GND" H 8200 5667 50  0000 C CNN
-F 2 "" H 8195 5840 50  0001 C CNN
-F 3 "" H 8195 5840 50  0001 C CNN
-	1    8195 5840
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5F898AFA
-P 9315 5840
-F 0 "#PWR0107" H 9315 5590 50  0001 C CNN
-F 1 "GND" H 9320 5667 50  0000 C CNN
-F 2 "" H 9315 5840 50  0001 C CNN
-F 3 "" H 9315 5840 50  0001 C CNN
-	1    9315 5840
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5F89949B
-P 9315 5590
-F 0 "#PWR0108" H 9315 5340 50  0001 C CNN
-F 1 "GND" H 9320 5417 50  0000 C CNN
-F 2 "" H 9315 5590 50  0001 C CNN
-F 3 "" H 9315 5590 50  0001 C CNN
-	1    9315 5590
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 5F899851
-P 9315 5040
-F 0 "#PWR0109" H 9315 4790 50  0001 C CNN
-F 1 "GND" H 9320 4867 50  0000 C CNN
-F 2 "" H 9315 5040 50  0001 C CNN
-F 3 "" H 9315 5040 50  0001 C CNN
-	1    9315 5040
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 5F899E9B
-P 9315 5340
-F 0 "#PWR0110" H 9315 5090 50  0001 C CNN
-F 1 "GND" H 9320 5167 50  0000 C CNN
-F 2 "" H 9315 5340 50  0001 C CNN
-F 3 "" H 9315 5340 50  0001 C CNN
-	1    9315 5340
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5F89DE23
-P 9315 4790
-F 0 "#PWR0111" H 9315 4540 50  0001 C CNN
-F 1 "GND" H 9320 4617 50  0000 C CNN
-F 2 "" H 9315 4790 50  0001 C CNN
-F 3 "" H 9315 4790 50  0001 C CNN
-	1    9315 4790
-	0    1    1    0   
-$EndComp
 Text Notes 5170 4365 0    50   ~ 10
 Separate VREFM?
 $Bitmap
@@ -5764,12 +5452,6 @@ Text Notes 1090 3275 0    50   ~ 10
 Input Elements
 Wire Notes Line
 	7825 4670 7825 6080
-Wire Notes Line
-	7825 6080 10230 6080
-Wire Notes Line
-	10230 6080 10230 4670
-Wire Notes Line
-	10230 4670 7825 4670
 Text Notes 7820 4655 0    50   ~ 10
 Output Elements
 Text GLabel 8000 2090 0    50   Input ~ 0
@@ -5837,4 +5519,170 @@ Wire Notes Line
 	7620 2990 7620 675 
 Text Notes 7630 765  0    50   ~ 10
 CLK TERMINATIONS
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J3
+U 1 1 5F87EC32
+P 8400 5350
+F 0 "J3" H 8450 5967 50  0000 C CNN
+F 1 "Conn_02x10_Top_Bottom" H 8450 5876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 8400 5350 50  0001 C CNN
+F 3 "~" H 8400 5350 50  0001 C CNN
+	1    8400 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 4950 0    50   Input ~ 0
+D0
+Text GLabel 8200 5050 0    50   Input ~ 0
+D1
+Text GLabel 8200 5150 0    50   Input ~ 0
+D2
+Text GLabel 8200 5250 0    50   Input ~ 0
+D3
+Text GLabel 8200 5350 0    50   Input ~ 0
+D4
+Text GLabel 8200 5450 0    50   Input ~ 0
+D5
+Text GLabel 8200 5550 0    50   Input ~ 0
+D6
+Text GLabel 8200 5650 0    50   Input ~ 0
+D7
+Text GLabel 8200 5750 0    50   Input ~ 0
+D8
+Text GLabel 8200 5850 0    50   Input ~ 0
+D9
+$Comp
+L power:GND #PWR07
+U 1 1 5F8DE013
+P 9000 5350
+F 0 "#PWR07" H 9000 5100 50  0001 C CNN
+F 1 "GND" H 9005 5177 50  0000 C CNN
+F 2 "" H 9000 5350 50  0001 C CNN
+F 3 "" H 9000 5350 50  0001 C CNN
+	1    9000 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 5250
+Wire Wire Line
+	9000 5350 9000 5250
+Wire Wire Line
+	9000 5250 8700 5250
+Wire Wire Line
+	8700 5250 8700 5350
+Wire Wire Line
+	8700 5750 8700 5850
+Wire Wire Line
+	8700 5150 8700 5250
+Wire Wire Line
+	8700 5750 8700 5650
+Connection ~ 8700 5750
+Connection ~ 8700 5050
+Wire Wire Line
+	8700 5050 8700 4950
+Connection ~ 8700 5150
+Wire Wire Line
+	8700 5150 8700 5050
+Connection ~ 8700 5350
+Connection ~ 8700 5450
+Wire Wire Line
+	8700 5450 8700 5350
+Connection ~ 8700 5550
+Wire Wire Line
+	8700 5550 8700 5450
+Connection ~ 8700 5650
+Wire Wire Line
+	8700 5650 8700 5550
+Wire Notes Line
+	10230 4670 7825 4670
+Wire Notes Line
+	10230 6080 10230 4670
+Wire Notes Line
+	7825 6080 10230 6080
+$Comp
+L Device:R R6
+U 1 1 5F90EE23
+P 1650 4100
+F 0 "R6" H 1720 4146 50  0000 L CNN
+F 1 "1k" H 1720 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1580 4100 50  0001 C CNN
+F 3 "~" H 1650 4100 50  0001 C CNN
+	1    1650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5F90FA1F
+P 2250 4600
+F 0 "C16" H 2365 4646 50  0000 L CNN
+F 1 "1u" H 2365 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 4450 50  0001 C CNN
+F 3 "~" H 2250 4600 50  0001 C CNN
+	1    2250 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4250 1650 4350
+$Comp
+L power:GND #PWR0102
+U 1 1 5F92B993
+P 2000 5150
+F 0 "#PWR0102" H 2000 4900 50  0001 C CNN
+F 1 "GND" H 2005 4977 50  0000 C CNN
+F 2 "" H 2000 5150 50  0001 C CNN
+F 3 "" H 2000 5150 50  0001 C CNN
+	1    2000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3850 1650 3950
+Wire Notes Line
+	2750 5300 1100 5300
+Text Notes 1100 3500 0    50   ~ 0
+Reset Switch\n
+Text GLabel 1650 3850 1    50   Input ~ 0
+VDDPST
+Wire Wire Line
+	1650 4350 1750 4350
+$Comp
+L Switch:SW_DIP_x02 SW1
+U 1 1 5F90B1F6
+P 1650 4700
+F 0 "SW1" V 1604 4930 50  0000 L CNN
+F 1 "SW_Push" V 1695 4930 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 1650 4900 50  0001 C CNN
+F 3 "~" H 1650 4900 50  0001 C CNN
+	1    1650 4700
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	2750 3400 2750 5300
+Wire Notes Line
+	1100 3400 1100 5300
+Wire Notes Line
+	1100 3400 2750 3400
+Wire Wire Line
+	1650 5100 1750 5100
+Wire Wire Line
+	2000 5150 2000 5100
+Connection ~ 2000 5100
+Wire Wire Line
+	2000 5100 2250 5100
+Wire Wire Line
+	1650 5100 1650 5000
+Wire Wire Line
+	2250 4750 2250 5100
+Wire Wire Line
+	1750 5000 1750 5100
+Connection ~ 1750 5100
+Wire Wire Line
+	1750 5100 2000 5100
+Connection ~ 1650 4350
+Wire Wire Line
+	1650 4350 1650 4400
+Wire Wire Line
+	1750 4400 1750 4350
+Connection ~ 1750 4350
+Wire Wire Line
+	1750 4350 2250 4350
+Wire Wire Line
+	2250 4350 2250 4450
 $EndSCHEMATC
