@@ -1,0 +1,41 @@
+Source:,/home/yuyi/Documents/CMU/PhD/18-726/ECE725/SAR_pcb/SAR_pcb.sch,,
+Date:,Wed 14 Oct 2020 03:56:00 AM EDT,,
+Tool:,Eeschema 5.1.5+dfsg1-2build2,,
+Component Count:,36,,
+Ref,Value,Footprint,Component
+C1,10u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt492
+C2,10u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt492
+C3,10u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt492
+C4,1u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4f2
+C5,1u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4f2
+C6,1u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4f2
+C7,0.1u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4w2
+C8,0.1u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4w2
+C9,0.1u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4w2
+C10,0.01,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt40c
+C11,0.01,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt40c
+C12,0.01,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt40c
+C13,0.001u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4vj
+C14,0.001u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4vj
+C15,0.001u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4vj
+C16,1u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4f2
+H1,MountingHole,MountingHole:MountingHole_3mm,~
+H2,MountingHole,MountingHole:MountingHole_3mm,~
+H3,MountingHole,MountingHole:MountingHole_3mm,~
+H4,MountingHole,MountingHole:MountingHole_3mm,~
+J1,Conn_Coaxial_Power,Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical,https://www.digikey.com/short/zn8tnn
+J2,Conn_Coaxial_Power,Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical,https://www.digikey.com/short/zn8tnn
+J3,Conn_02x10_Top_Bottom,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,https://www.digikey.com/short/zn87b0
+J4,Conn_01x06,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,https://www.digikey.com/short/zn8t4v
+J9,Conn_Coaxial,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,https://www.digikey.com/short/zn8tvt
+J10,Conn_Coaxial,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,https://www.digikey.com/short/zn8tvt
+L1,1 nH,Inductor_SMD:L_0603_1608Metric,https://www.digikey.com/short/znt81t
+L2,2.2 nH,Inductor_SMD:L_0805_2012Metric,https://www.digikey.com/short/zntz8b
+R1,"0,<20 mOhm",Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/short/znt8qf
+R2,50,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/short/zntj08
+R3,26.1,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/short/zntpcc
+R4,50,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/short/zntj08
+R5,10,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/short/zntz9r
+R6,1k,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/short/zn87j1
+SW1,SW_Push,Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm,https://www.digikey.com/short/zn87mb
+U2,10B_SAR,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias,
