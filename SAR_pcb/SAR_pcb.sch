@@ -190,7 +190,7 @@ U 1 1 5F7C01E2
 P 5525 1380
 F 0 "J10" H 5625 1355 50  0000 L CNN
 F 1 "Conn_Coaxial" H 5625 1264 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5525 1380 50  0001 C CNN
+F 2 "SAR_pcb:CustomSMA" H 5525 1380 50  0001 C CNN
 F 3 "https://www.digikey.com/short/zn8tvt" H 5525 1380 50  0001 C CNN
 	1    5525 1380
 	1    0    0    -1  
@@ -201,7 +201,7 @@ U 1 1 5F7C2E44
 P 5525 880
 F 0 "J9" H 5625 855 50  0000 L CNN
 F 1 "Conn_Coaxial" H 5625 764 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5525 880 50  0001 C CNN
+F 2 "SAR_pcb:CustomSMA" H 5525 880 50  0001 C CNN
 F 3 "https://www.digikey.com/short/zn8tvt" H 5525 880 50  0001 C CNN
 	1    5525 880 
 	1    0    0    -1  
@@ -233,50 +233,6 @@ CLK_S
 Text GLabel 5325 880  0    50   Input ~ 0
 CLK
 $Comp
-L Device:C C13
-U 1 1 5F7DED7C
-P 3000 950
-F 0 "C13" H 3115 996 50  0000 L CNN
-F 1 "0.001u" H 3115 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 800 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4vj" H 3000 950 50  0001 C CNN
-	1    3000 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C10
-U 1 1 5F7E0756
-P 2550 950
-F 0 "C10" H 2665 996 50  0000 L CNN
-F 1 "0.01" H 2665 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 800 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt40c" H 2550 950 50  0001 C CNN
-	1    2550 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 5F7E12CB
-P 2250 950
-F 0 "C7" H 2365 996 50  0000 L CNN
-F 1 "0.1u" H 2365 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 800 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4w2" H 2250 950 50  0001 C CNN
-	1    2250 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5F7E1E8A
-P 1900 950
-F 0 "C4" H 2015 996 50  0000 L CNN
-F 1 "1u" H 2015 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 800 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4f2" H 1900 950 50  0001 C CNN
-	1    1900 950 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5F7E2A59
 P 1500 950
@@ -289,26 +245,6 @@ F 3 "https://www.digikey.com/short/znt492" H 1500 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 800  1650 800 
-Connection ~ 1900 800 
-Wire Wire Line
-	1900 800  2250 800 
-Connection ~ 2250 800 
-Wire Wire Line
-	2250 800  2550 800 
-Connection ~ 2550 800 
-Wire Wire Line
-	2550 800  3000 800 
-Wire Wire Line
-	1500 1100 1900 1100
-Connection ~ 1900 1100
-Wire Wire Line
-	1900 1100 2250 1100
-Connection ~ 2250 1100
-Wire Wire Line
-	2250 1100 2550 1100
-Connection ~ 2550 1100
-Wire Wire Line
-	2550 1100 2750 1100
 Text GLabel 1450 700  0    50   Input ~ 0
 VDD
 Wire Wire Line
@@ -316,8 +252,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 700  1650 800 
 Connection ~ 1650 800 
-Wire Wire Line
-	1650 800  1900 800 
 $Comp
 L power:GND #PWR04
 U 1 1 5F7ECF42
@@ -333,49 +267,16 @@ Wire Wire Line
 	2750 1200 2750 1100
 Connection ~ 2750 1100
 Wire Wire Line
-	2750 1100 3000 1100
+	2750 1100 2790 1100
 $Comp
 L Device:C C14
 U 1 1 5F7F40D7
 P 3000 1750
 F 0 "C14" H 3115 1796 50  0000 L CNN
-F 1 "0.001u" H 3115 1705 50  0000 L CNN
+F 1 "0.01u" H 3115 1705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4vj" H 3000 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 3000 1750 50  0001 C CNN
 	1    3000 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C11
-U 1 1 5F7F40DD
-P 2550 1750
-F 0 "C11" H 2665 1796 50  0000 L CNN
-F 1 "0.01" H 2665 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt40c" H 2550 1750 50  0001 C CNN
-	1    2550 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5F7F40E3
-P 2250 1750
-F 0 "C8" H 2365 1796 50  0000 L CNN
-F 1 "0.1u" H 2365 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4w2" H 2250 1750 50  0001 C CNN
-	1    2250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5F7F40E9
-P 1900 1750
-F 0 "C5" H 2015 1796 50  0000 L CNN
-F 1 "1u" H 2015 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4f2" H 1900 1750 50  0001 C CNN
-	1    1900 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -391,26 +292,6 @@ F 3 "https://www.digikey.com/short/znt492" H 1500 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 1600 1650 1600
-Connection ~ 1900 1600
-Wire Wire Line
-	1900 1600 2250 1600
-Connection ~ 2250 1600
-Wire Wire Line
-	2250 1600 2550 1600
-Connection ~ 2550 1600
-Wire Wire Line
-	2550 1600 3000 1600
-Wire Wire Line
-	1500 1900 1900 1900
-Connection ~ 1900 1900
-Wire Wire Line
-	1900 1900 2250 1900
-Connection ~ 2250 1900
-Wire Wire Line
-	2250 1900 2550 1900
-Connection ~ 2550 1900
-Wire Wire Line
-	2550 1900 2750 1900
 Text GLabel 1450 1500 0    50   Input ~ 0
 VDDPST
 Wire Wire Line
@@ -418,8 +299,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 1500 1650 1600
 Connection ~ 1650 1600
-Wire Wire Line
-	1650 1600 1900 1600
 $Comp
 L power:GND #PWR05
 U 1 1 5F7F4108
@@ -435,49 +314,16 @@ Wire Wire Line
 	2750 2000 2750 1900
 Connection ~ 2750 1900
 Wire Wire Line
-	2750 1900 3000 1900
+	2750 1900 2785 1900
 $Comp
 L Device:C C15
 U 1 1 5F7F8534
 P 3000 2550
 F 0 "C15" H 3115 2596 50  0000 L CNN
-F 1 "0.001u" H 3115 2505 50  0000 L CNN
+F 1 "0.01u" H 3115 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 2400 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4vj" H 3000 2550 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 3000 2550 50  0001 C CNN
 	1    3000 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C12
-U 1 1 5F7F853A
-P 2550 2550
-F 0 "C12" H 2665 2596 50  0000 L CNN
-F 1 "0.01" H 2665 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 2400 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt40c" H 2550 2550 50  0001 C CNN
-	1    2550 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5F7F8540
-P 2250 2550
-F 0 "C9" H 2365 2596 50  0000 L CNN
-F 1 "0.1u" H 2365 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 2400 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4w2" H 2250 2550 50  0001 C CNN
-	1    2250 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5F7F8546
-P 1900 2550
-F 0 "C6" H 2015 2596 50  0000 L CNN
-F 1 "1u" H 2015 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 2400 50  0001 C CNN
-F 3 "https://www.digikey.com/short/znt4f2" H 1900 2550 50  0001 C CNN
-	1    1900 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -493,26 +339,6 @@ F 3 "https://www.digikey.com/short/znt492" H 1500 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 2400 1650 2400
-Connection ~ 1900 2400
-Wire Wire Line
-	1900 2400 2250 2400
-Connection ~ 2250 2400
-Wire Wire Line
-	2250 2400 2550 2400
-Connection ~ 2550 2400
-Wire Wire Line
-	2550 2400 3000 2400
-Wire Wire Line
-	1500 2700 1900 2700
-Connection ~ 1900 2700
-Wire Wire Line
-	1900 2700 2250 2700
-Connection ~ 2250 2700
-Wire Wire Line
-	2250 2700 2550 2700
-Connection ~ 2550 2700
-Wire Wire Line
-	2550 2700 2750 2700
 Text GLabel 1450 2300 0    50   Input ~ 0
 VREF
 Wire Wire Line
@@ -520,8 +346,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 2300 1650 2400
 Connection ~ 1650 2400
-Wire Wire Line
-	1650 2400 1900 2400
 $Comp
 L power:GND #PWR06
 U 1 1 5F7F8565
@@ -1017,4 +841,146 @@ Text GLabel 3965 1330 0    50   Input ~ 0
 VDDPST
 Text GLabel 3965 1530 0    50   Input ~ 0
 VREF
+$Comp
+L Device:C C17
+U 1 1 5F89E812
+P 3520 955
+F 0 "C17" H 3635 1001 50  0000 L CNN
+F 1 "0.01u" H 3635 910 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3558 805 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 3520 955 50  0001 C CNN
+	1    3520 955 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3520 805  3270 805 
+Wire Wire Line
+	3000 805  3000 800 
+Connection ~ 3000 800 
+Wire Wire Line
+	3520 1105 3270 1105
+Wire Wire Line
+	3000 1105 3000 1100
+Connection ~ 3000 1100
+$Comp
+L Device:C C19
+U 1 1 5F8B10D0
+P 3485 1750
+F 0 "C19" H 3600 1796 50  0000 L CNN
+F 1 "0.01u" H 3600 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3523 1600 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 3485 1750 50  0001 C CNN
+	1    3485 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1600 3485 1600
+Connection ~ 3000 1600
+Wire Wire Line
+	3485 1900 3000 1900
+Connection ~ 3000 1900
+$Comp
+L Device:C C18
+U 1 1 5F8BA0B8
+P 3040 955
+F 0 "C18" H 3155 1001 50  0000 L CNN
+F 1 "0.01u" H 3155 910 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3078 805 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 3040 955 50  0001 C CNN
+	1    3040 955 
+	1    0    0    -1  
+$EndComp
+Connection ~ 3270 805 
+Wire Wire Line
+	3270 805  3040 805 
+Connection ~ 3270 1105
+Wire Wire Line
+	3270 1105 3040 1105
+$Comp
+L Device:C C21
+U 1 1 5F8BE096
+P 2025 950
+F 0 "C21" H 2140 996 50  0000 L CNN
+F 1 "0.01u" H 2140 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2063 800 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 2025 950 50  0001 C CNN
+	1    2025 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 2790 800 
+Wire Wire Line
+	2790 800  2910 800 
+Connection ~ 2790 1100
+Wire Wire Line
+	2790 1100 2910 1100
+$Comp
+L Device:C C20
+U 1 1 5F8BF416
+P 2430 1750
+F 0 "C20" H 2545 1796 50  0000 L CNN
+F 1 "0.01u" H 2545 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2468 1600 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 2430 1750 50  0001 C CNN
+	1    2430 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2785 1600
+Wire Wire Line
+	2785 1600 3000 1600
+Connection ~ 2785 1900
+Wire Wire Line
+	2785 1900 3000 1900
+Wire Wire Line
+	1650 800  2025 800 
+Wire Wire Line
+	1500 1100 2025 1100
+Wire Wire Line
+	1650 1600 2430 1600
+Wire Wire Line
+	1500 1900 2430 1900
+Wire Wire Line
+	1650 2400 3000 2400
+Wire Wire Line
+	1500 2700 2750 2700
+Connection ~ 2430 1600
+Wire Wire Line
+	2430 1600 2785 1600
+Connection ~ 2430 1900
+Wire Wire Line
+	2430 1900 2750 1900
+Connection ~ 2025 800 
+Wire Wire Line
+	2025 800  2525 800 
+Connection ~ 2025 1100
+Wire Wire Line
+	2025 1100 2525 1100
+$Comp
+L Device:C C13
+U 1 1 5F7DED7C
+P 2525 950
+F 0 "C13" H 2640 996 50  0000 L CNN
+F 1 "0.01u" H 2640 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2563 800 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znt40c" H 2525 950 50  0001 C CNN
+	1    2525 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 2525 800 
+Wire Wire Line
+	2525 800  2790 800 
+Connection ~ 2525 1100
+Wire Wire Line
+	2525 1100 2750 1100
+Connection ~ 2910 800 
+Wire Wire Line
+	2910 800  3000 800 
+Connection ~ 2910 1100
+Wire Wire Line
+	2910 1100 3000 1100
+Connection ~ 3040 805 
+Wire Wire Line
+	3040 805  3000 805 
+Connection ~ 3040 1105
+Wire Wire Line
+	3040 1105 3000 1105
 $EndSCHEMATC
