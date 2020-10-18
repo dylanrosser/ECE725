@@ -228,10 +228,8 @@ F 3 "" H 5525 1080 50  0001 C CNN
 	1    5525 1080
 	1    0    0    -1  
 $EndComp
-Text GLabel 5325 1380 0    50   Input ~ 0
-CLK_S
 Text GLabel 5325 880  0    50   Input ~ 0
-CLK
+CLK+
 $Comp
 L Device:C C1
 U 1 1 5F7E2A59
@@ -481,7 +479,7 @@ $EndComp
 Wire Wire Line
 	6005 4365 6005 4895
 Text GLabel 8005 950  0    50   Input ~ 0
-CLK_S
+CLK-
 $Comp
 L Device:R R2
 U 1 1 5F87C134
@@ -550,7 +548,7 @@ Wire Notes Line
 Text Notes 7820 4655 0    50   ~ 10
 Output Elements
 Text GLabel 8000 2090 0    50   Input ~ 0
-CLK
+CLK+
 $Comp
 L Device:R R4
 U 1 1 5F91ABE8
@@ -957,4 +955,6 @@ Wire Wire Line
 	2525 800  3000 800 
 Wire Wire Line
 	2750 1100 3000 1100
+Text GLabel 5325 1380 0    50   Input ~ 0
+CLK-
 $EndSCHEMATC
