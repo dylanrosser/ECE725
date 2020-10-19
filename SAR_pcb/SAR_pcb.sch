@@ -957,4 +957,19 @@ Wire Wire Line
 	2750 1100 3000 1100
 Text GLabel 5325 1380 0    50   Input ~ 0
 CLK-
+$Comp
+L Device:R R7
+U 1 1 5F8D1B9C
+P 3980 4285
+F 0 "R7" H 4050 4331 50  0000 L CNN
+F 1 "100" H 4050 4240 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3910 4285 50  0001 C CNN
+F 3 "https://www.digikey.com/short/znhvnf" H 3980 4285 50  0001 C CNN
+	1    3980 4285
+	1    0    0    -1  
+$EndComp
+Text GLabel 3980 4435 3    50   Input ~ 0
+VIN-
+Text GLabel 3980 4135 1    50   Input ~ 0
+VIN+
 $EndSCHEMATC
