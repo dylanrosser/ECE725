@@ -1,37 +1,40 @@
-Source:,/home/yuyi/Documents/CMU/PhD/18-726/ECE725/SAR_pcb/SAR_pcb.sch,,
-Date:,Sat 17 Oct 2020 09:28:03 PM EDT,,
-Tool:,Eeschema 5.1.5+dfsg1-2build2,,
-Component Count:,32,,
-Ref,Value,Footprint,Component Link
-C1,10u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt492
-C2,10u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt492
-C3,10u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt492
-C13,0.01u,Capacitor_SMD:C_0603_1608Metric,https://www.digikey.com/short/znht7p
-C14,0.01u,Capacitor_SMD:C_0603_1608Metric,https://www.digikey.com/short/znht7p
-C15,0.01u,Capacitor_SMD:C_0603_1608Metric,https://www.digikey.com/short/znht7p
-C16,1u,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/short/znt4f2
-C17,0.01u,Capacitor_SMD:C_0603_1608Metric,https://www.digikey.com/short/znht7p
-C18,0.01u,Capacitor_SMD:C_0603_1608Metric,https://www.digikey.com/short/znht7p
-C19,0.01u,Capacitor_SMD:C_0603_1608Metric,https://www.digikey.com/short/znht7p
-C20,0.01u,Capacitor_SMD:C_0603_1608Metric,https://www.digikey.com/short/znht7p
-C21,0.01u,Capacitor_SMD:C_0603_1608Metric,https://www.digikey.com/short/znht7p
-H1,MountingHole,MountingHole:MountingHole_3mm,~
-H2,MountingHole,MountingHole:MountingHole_3mm,~
-H3,MountingHole,MountingHole:MountingHole_3mm,~
-H4,MountingHole,MountingHole:MountingHole_3mm,~
-J1,Conn_Coaxial_Power,Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical,https://www.digikey.com/short/zn8tnn
-J2,Conn_Coaxial_Power,Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical,https://www.digikey.com/short/zn8tnn
-J3,Conn_02x10_Top_Bottom,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,https://www.digikey.com/short/zn87b0
-J4,Conn_01x06,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,https://www.digikey.com/short/zn8t4v
-J9,Conn_Coaxial,SAR_pcb:CustomSMA,https://www.digikey.com/short/zn8tvt
-J10,Conn_Coaxial,SAR_pcb:CustomSMA,https://www.digikey.com/short/zn8tvt
-L1,1 nH,Inductor_SMD:L_0603_1608Metric,https://www.digikey.com/short/znt81t
-L2,2.2 nH,Inductor_SMD:L_0603_1608Metric,https://www.digikey.com/short/znhtd8
-R1,"0,<0.3 mOhm",Resistor_SMD:R_0603_1608Metric,https://www.digikey.com/short/znhtqv
-R2,49.9,Resistor_SMD:R_0603_1608Metric,https://www.digikey.com/short/znht5c
-R3,26.1,Resistor_SMD:R_0603_1608Metric,https://www.digikey.com/short/znht2d
-R4,49.9,Resistor_SMD:R_0603_1608Metric,https://www.digikey.com/short/znht5c
-R5,10,Resistor_SMD:R_0603_1608Metric,https://www.digikey.com/short/znhtrd
-R6,1k,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/short/zn87j1
-SW1,SW_Push,Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm,https://www.digikey.com/short/zn87mb
-U2,10B_SAR,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias,
+"Source:","C:\Users\Dylan\Documents\Grad School stuff\S20\Digital_IC\ECE725\SAR_pcb_v2A\SAR_pcb.sch"
+"Date:","10/21/2020 4:16:12 PM"
+"Tool:","Eeschema (5.1.6)-1"
+"Component Count:","35"
+"Ref","Value","Footprint","Datasheet","Manufacturer","Vendor"
+"C1","10u","Capacitor_SMD:C_0805_2012Metric","https://www.digikey.com/short/znt492","",""
+"C2","10u","Capacitor_SMD:C_0805_2012Metric","https://www.digikey.com/short/znt492","",""
+"C3","10u","Capacitor_SMD:C_0805_2012Metric","https://www.digikey.com/short/znt492","",""
+"C13","0.01u","Capacitor_SMD:C_0603_1608Metric","https://www.digikey.com/short/znht7p","",""
+"C14","0.01u","Capacitor_SMD:C_0603_1608Metric","https://www.digikey.com/short/znht7p","",""
+"C15","0.01u","Capacitor_SMD:C_0603_1608Metric","https://www.digikey.com/short/znht7p","",""
+"C16","1u","Capacitor_SMD:C_0805_2012Metric","https://www.digikey.com/short/znt4f2","",""
+"C17","0.01u","Capacitor_SMD:C_0603_1608Metric","https://www.digikey.com/short/znht7p","",""
+"C18","0.01u","Capacitor_SMD:C_0603_1608Metric","https://www.digikey.com/short/znht7p","",""
+"C19","0.01u","Capacitor_SMD:C_0603_1608Metric","https://www.digikey.com/short/znht7p","",""
+"C20","0.01u","Capacitor_SMD:C_0603_1608Metric","https://www.digikey.com/short/znht7p","",""
+"C21","0.01u","Capacitor_SMD:C_0603_1608Metric","https://www.digikey.com/short/znht7p","",""
+"H1","MountingHole","MountingHole:MountingHole_3mm","~","",""
+"H2","MountingHole","MountingHole:MountingHole_3mm","~","",""
+"H3","MountingHole","MountingHole:MountingHole_3mm","~","",""
+"H4","MountingHole","MountingHole:MountingHole_3mm","~","",""
+"J1","Conn_Coaxial_Power","Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical","https://www.digikey.com/short/zn8tnn","",""
+"J2","Conn_Coaxial_Power","Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical","https://www.digikey.com/short/zn8tnn","",""
+"J3","Conn_02x10_Top_Bottom","Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical","https://www.digikey.com/short/zn87b0","",""
+"J4","Conn_01x06","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","https://www.digikey.com/short/zn8t4v","",""
+"J9","Conn_Coaxial","SAR_pcb:CustomSMA","https://www.digikey.com/short/zn8tvt","",""
+"J10","Conn_Coaxial","SAR_pcb:CustomSMA","https://www.digikey.com/short/zn8tvt","",""
+"L1","1 nH","Inductor_SMD:L_0603_1608Metric","https://www.digikey.com/short/znt81t","",""
+"L2","2.2 nH","Inductor_SMD:L_0603_1608Metric","https://www.digikey.com/short/znhtd8","",""
+"R1","0,<0.3 mOhm","Resistor_SMD:R_0603_1608Metric","https://www.digikey.com/short/znhtqv","",""
+"R2","49.9","Resistor_SMD:R_0603_1608Metric","https://www.digikey.com/short/znht5c","",""
+"R3","26.1","Resistor_SMD:R_0603_1608Metric","https://www.digikey.com/short/znht2d","",""
+"R4","49.9","Resistor_SMD:R_0603_1608Metric","https://www.digikey.com/short/znht5c","",""
+"R5","10","Resistor_SMD:R_0603_1608Metric","https://www.digikey.com/short/znhtrd","",""
+"R6","1k","Resistor_SMD:R_0805_2012Metric","https://www.digikey.com/short/zn87j1","",""
+"R7","100","Resistor_SMD:R_0603_1608Metric","https://www.digikey.com/short/znhvnf","",""
+"R8","0,<0.3 mOhm","Resistor_SMD:R_0603_1608Metric","https://www.digikey.com/short/znhtqv","",""
+"R9","0,<0.3 mOhm","Resistor_SMD:R_0603_1608Metric","https://www.digikey.com/short/znhtqv","",""
+"SW1","SW_Push","Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm","https://www.digikey.com/short/zn87mb","",""
+"U2","10B_SAR","Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias","","",""
