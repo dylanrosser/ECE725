@@ -1,6 +1,6 @@
-update=Sun 18 Oct 2020 02:56:21 AM EDT
+update=10/21/2020 4:53:11 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -88,7 +88,7 @@ Name=GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=VDD
+Name=PWR
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
