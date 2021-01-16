@@ -1,0 +1,11 @@
+test conditions:
+Clock: 3MHz, 1.8Vpp, 900mV offset, 50% duty, 50 Ohm Load
+Sample Clock: 250kHz, 1.8Vpp, 900mV offset, 12.5% duty, 50 Ohm Load
+Vref: 0.6V, 0.1A
+VDD: 0.9V, 0.1A
+VDDPST: 1.850V
+Vin+: Triangle, 900mVpp, 1Hz, 450mV offset
+Vin-: Triangle, 900mVpp, 1Hz, 450mV offset, 180 degree phase
+
+Notes:
+-This was our first half decent data. outputs 5, 6, & 7 had a stuck-at-1 fault.

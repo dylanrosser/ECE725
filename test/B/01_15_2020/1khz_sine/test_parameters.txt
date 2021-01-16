@@ -1,0 +1,19 @@
+test conditions:
+Clock: 3MHz, 1.8Vpp, 900mV offset, 50% duty, 50 Ohm Load
+Sample Clock: 250kHz, 1.8Vpp, 900mV offset, 12.5% duty, 50 Ohm Load
+Vref: 0.6V, 0.1A
+VDD: 0.9V, 0.1A
+VDDPST: 1.850V
+Vin+: Sine, 900mVpp, 100Hz, 450mV offset
+Vin-: Sine, 900mVpp, 100Hz, 450mV offset, 180 degree phase
+
+Waveform Software Settings:
+#Digilent WaveForms Logic Analyzer Acquisition
+#Device Name: DDiscovery
+#Serial Number: SN:210321AFE828
+#Date Time: 2021-01-15 16:00:32.164
+#Sample rate: 2e+06Hz
+#Samples: 2097152
+
+
+Notes:
