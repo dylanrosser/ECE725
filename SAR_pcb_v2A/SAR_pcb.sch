@@ -981,10 +981,10 @@ Wire Notes Line
 Wire Notes Line
 	7600 4350 7600 3300
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 5F9109D4
 P 7805 3515
-F 0 "R?" H 7875 3561 50  0000 L CNN
+F 0 "R8" H 7875 3561 50  0000 L CNN
 F 1 "0,<0.3 mOhm" H 7875 3470 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7735 3515 50  0001 C CNN
 F 3 "https://www.digikey.com/short/znhtqv" H 7805 3515 50  0001 C CNN
@@ -992,10 +992,10 @@ F 3 "https://www.digikey.com/short/znhtqv" H 7805 3515 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 5F913E63
 P 8505 3515
-F 0 "R?" H 8575 3561 50  0000 L CNN
+F 0 "R9" H 8575 3561 50  0000 L CNN
 F 1 "0,<0.3 mOhm" H 8575 3470 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8435 3515 50  0001 C CNN
 F 3 "https://www.digikey.com/short/znhtqv" H 8505 3515 50  0001 C CNN
