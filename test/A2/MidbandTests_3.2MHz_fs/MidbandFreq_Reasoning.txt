@@ -1,0 +1,4 @@
+Even value of freq. in the middle of the functioning freq band.
+(Need to accommodate ability of DD board to match sampling frequency exactly).
+
+VREF = 0.45
