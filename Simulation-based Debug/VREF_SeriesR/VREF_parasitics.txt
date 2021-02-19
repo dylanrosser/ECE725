@@ -1,0 +1,3 @@
+Ra = 1.835 Ohms
+Rb = 3.095 Ohms
+DCAP = 4 pF

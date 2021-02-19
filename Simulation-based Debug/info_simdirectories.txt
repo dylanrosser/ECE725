@@ -4,10 +4,23 @@ virtuoso28p/simulation/debug_lowspeed:
 To be used to check relative prop. delay between DAC switches and comparators within core. (ignoring supply parasitics).
 
 virtuoso28p/simulation/debug_sdr_highspeed
+4 periods of transient only simulation at 50 MS/s fs, 512 point
+Use to check intrinsic SDR
+Note: Pin locations have been changed in layout to better reflect points at which inputs are injected into core
+
+virtuoso28p/simulation/debug_highspeed_1024pt
 4 periods of transient only simulation at 50 MS/s fs, 1024 point
 Use to check intrinsic SDR
 Note: Pin locations have been changed in layout to better reflect points at which inputs are injected into core
 
+virtuoso28p/simulation/debug_highspeed_512pt_VREFPARA
+4 periods of transient only simulation at 50 MS/s fs, 512 point
+Use to check impact of VREF routing grid parasitics on intrinsic SDR
+Note: Pin locations have been changed in layout to better reflect points at which inputs are injected into core
+
 ece725_debug/VREF_Parasitics:
-Parasitic extract of VREF network
+Parasitic extract VREF of network
 (Assume 4 pF per decap unit for pessimism).
+
+ece725_debug/clk_path_delay:
+Clock path to core cell (isolated from schema)
