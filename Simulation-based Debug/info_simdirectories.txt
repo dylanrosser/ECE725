@@ -1,0 +1,13 @@
+Library: ece725_debug
+virtuoso28p/simulation/debug_lowspeed:
+50 sample clock periods worth of post-layout transient simulation at low speed
+To be used to check relative prop. delay between DAC switches and comparators within core. (ignoring supply parasitics).
+
+virtuoso28p/simulation/debug_sdr_highspeed
+4 periods of transient only simulation at 50 MS/s fs, 1024 point
+Use to check intrinsic SDR
+Note: Pin locations have been changed in layout to better reflect points at which inputs are injected into core
+
+ece725_debug/VREF_Parasitics:
+Parasitic extract of VREF network
+(Assume 4 pF per decap unit for pessimism).
